@@ -1,0 +1,61 @@
+.notify{ text-align: center;
+			background:  #222220;
+			color:  #fff;
+			font-size: 17px;
+			line-height: 50px;
+			max-width:auto;
+		}
+
+	.logo{
+			    margin-top: 6px;
+      			margin-right: auto;
+    			margin-bottom: auto;
+    			margin-left: auto;
+				display: inline-block;
+				width:130px;
+				margin-top: 6px;
+				text-align-last: center;
+				padding: 15px;
+		}
+		
+		.banner
+		{
+			max-width:100%;
+			margin: 0 auto;
+			display: block;
+		}
+		.menu{
+		color: #111;
+		height: auto;
+        padding: 10px 0px;
+        height: auto;
+        display: inline-block;
+    	font-size: 14px;
+    	color: #757575;
+        letter-spacing: 1px;
+    	text-transform: uppercase;
+    	padding: 4px;
+		}
+		.icon{
+    			padding:20px;
+    		    width: 25%;
+    		    float: left;
+    		    position: relative;
+      			min-height: 1px;
+      			margin: auto;
+   				border:0;
+   				font-size: 25px;
+   				}
+   		.return{
+   			float:right;
+
+   		}	
+   		body{
+   			margin: 0px;
+   		}
+   		.menu_bar{
+   			padding: 25%;
+   		}
+   		.sale{
+   			color:#e4032d;
+   		}
