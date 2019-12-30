@@ -2,7 +2,7 @@
 			background:  #222220;
 			color:  #fff;
 			font-size: 17px;
-			line-height: 50px;
+			line-height:50px;
 			max-width:auto;
 		}
 
@@ -53,9 +53,16 @@
    		body{
    			margin: 0px;
    		}
-   		.menu_bar{
-   			padding: 25%;
-   		}
    		.sale{
    			color:#e4032d;
    		}
+   		.logo_wrapper
+   		{
+
+   		}
+		.logo_wrapper .logo_img
+   		{
+
+
+   		}
+
