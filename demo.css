@@ -1,68 +1,230 @@
-.notify{ text-align: center;
-			background:  #222220;
-			color:  #fff;
-			font-size: 17px;
-			line-height:50px;
-			max-width:auto;
-		}
+.notify{ 
+ background:  #222220;
+ color:  #fff;
+ font-size: 17px;
+ line-height:50px;
+ margin-top:0px;
+ margin-bottom: 0px;
+ letter-spacing: 1px;
+ text-align: center;
+}
 
-	.logo{
-			    margin-top: 6px;
-      			margin-right: auto;
-    			margin-bottom: auto;
-    			margin-left: auto;
-				display: inline-block;
-				width:130px;
-				margin-top: 6px;
-				text-align-last: center;
-				padding: 15px;
-		}
-		
-		.banner
-		{
-			max-width:100%;
-			margin: 0 auto;
-			display: block;
-		}
-		.menu{
-		color: #111;
-		height: auto;
-        padding: 10px 0px;
-        height: auto;
-        display: inline-block;
-    	font-size: 14px;
-    	color: #757575;
-        letter-spacing: 1px;
-    	text-transform: uppercase;
-    	padding: 4px;
-		}
-		.icon{
-    			padding:20px;
-    		    width: 25%;
-    		    float: left;
-    		    position: relative;
-      			min-height: 1px;
-      			margin: auto;
-   				border:0;
-   				font-size: 25px;
-   				}
-   		.return{
-   			float:right;
+.logo{
+ margin-top: 6px;
+ margin-right: auto;
+ margin-bottom: auto;
+ margin-left: auto;
+ display: inline-block;
+ width:130px;
+ margin-top: 6px;
+ text-align-last: center;
+ padding: 15px;
+}
 
-   		}	
-   		body{
-   			margin: 0px;
-   		}
-   		.sale{
-   			color:#e4032d;
-   		}
-   		.logo_wrapper
-   		{
+.banner img
+{
+ max-width:100%;
+ margin: 0 auto;
+ display: block;
+ padding-bottom: 20px;
+}
+.banner2 img
+{
+width: 473px;
+padding: 0px 15px;
+}
+.banner3 img
+{
+  width: 727px;
+  padding: 0px 15px;
+}
+.banner4 img
+{
+ width: 475px;
+ padding: 15px 14px;
 
-   		}
-		.logo_wrapper .logo_img
-   		{
+}
+.icon3
+{
+  margin:3px; 
+  height: 120px;
+}
+.icon3 .shipping 
+{
+display: inline-block;
+padding:0px 190px 0px 210px; 
+color: #757575;
+  font-size: 15px;
+  font-family: monospace;
+}
+.icon3 .undo 
+{
+display: inline-block;
+padding: 0px 190px 0px 230px;
+color: #757575;
+  font-size: 15px;
+  font-family: monospace;
+}
+.icon3 .new 
+{
+display: inline-block;
+padding: 0px 100px 0px 180px;
+color: #757575;
+  font-size: 15px;
+  font-family: monospace;
+}
+.icon3 .shipping i
+{
+padding-left: 31px;
+font-size: 26px;
+
+}
+.icon3 .undo i
+{
+padding-left: 31px;
+font-size: 26px;
+
+}
+.icon3 .new img
+{
+padding-left: 50px;
+font-size: 26px;
+}
+.return{
+  float:right;
+
+}	
+body{
+  margin: 0px;
+}
+.menu_bar{
+  padding-left: 26%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.sale{
+  color:#e4032d;
+}
+.logo_wrapper
+{
+ display:flex;
+}
+.logo_wrapper .logo_img
+{
+padding-left: 47%;
+    padding-top: 22px;
+    padding-right: 12%;
+}
+.logo_wrapper .search input
+{
+  padding-left:10px;
+  padding-right:50px; 
+  padding-top:10px;
+  padding-bottom:10px;
+  position: absolute;
+  width:250px;
+
+}
+.logo_wrapper .search
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
 
 
-   		}
+}
+.logo_wrapper .search .icon
+{
+  padding-bottom: 10px;
+  padding-left: 330px;
+  display: inline-block;
+}
+.menu_bar .menu{
+  height: auto;
+  display: inline-block;
+  font-size: 14px;
+  font-family: monospace;
+  color: #757575;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding:9px 10px;
+  font-size: 14px;
+  font-family: monospace
 
+}
+.logo_wrapper .search .search_logo 
+{
+  position: absolute;
+  padding-top: 10px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+}
+.logo_wrapper .search .search_logo i
+{
+  padding-left: 275px;
+}
+.logo_wrapper .search .icon span
+{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  font-size: 30px
+}
+.icons
+{
+  height: 50px;
+  text-align: center;
+
+}
+.icons p
+{
+  display:inline-block; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #757575;
+  font-family: monospace; 
+  letter-spacing: 0px;
+    padding: 17px 10px;
+    font-size: 14px;
+  }
+.icons p i
+{
+  padding-right: 9px;
+  padding-left: 4px;
+  font-size: 16px;
+
+}
+.hr
+{
+  margin:auto;
+}
+.banner5 img 
+{
+    width: 350px;
+    padding: 25px 13px;
+}
+footer
+{
+  color: #333;
+  background-color: #f2f2f2f2;
+}
+.icon4
+{
+  font-size: 30px; 
+  display:inline-block;
+}
+.info 
+{
+display:inline-block; 
+}
+.info .social
+{
+  display: inline-block;
+}
+.policy
+{
+  display: block;
+}
